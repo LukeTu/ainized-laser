@@ -40,7 +40,28 @@ be found in [6], together with an extensive experimental evaluation.
 2. Click default 
 
     <img src="./img/clickDeafault.png" width="700" height="400">
-3.
+3. Click Try it out and input the default value and click execute
+
+    <img src="./img/tryitout.png" width="700" height="400">
+4. Result
+
+    <img src="./img/execute.png" width = "700" height="400">
+
+# How to Docker build
+if you want run on your local environmnet 
+
+```sh
+git clone https://github.com/kmkwon94/ainize-laser.git
+```
+
+```sh
+docker build -t [your dockerhub ID]/[your dockerhub repo]
+```
+
+```sh
+docker run -p [your port]:80 -d [your dockerhub ID]/[your dockerhub repo]
+```  
+* Now you can access localhost:[your port]/vectorize?q=[what you want to write down]&lang=[what you want to apply a language]
 
 
 
