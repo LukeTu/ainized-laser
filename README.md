@@ -40,7 +40,7 @@ be found in [6], together with an extensive experimental evaluation.
 2. Click default 
 
     <img src="./img/clickDeafault.png" width="700" height="400">
-3. Click Try it out and input the default value and click execute
+3. Click Try it out and input the default value. Finally click execute
 
     <img src="./img/tryitout.png" width="700" height="400">
 4. Result
