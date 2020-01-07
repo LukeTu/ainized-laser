@@ -36,8 +36,11 @@ be found in [6], together with an extensive experimental evaluation.
 # How to Use
 1. Click Run on ainize 
    
-   ![RunonAinize](./img/runonainize.png)
-2. 
+    ![RunonAinize](./img/runonainize.png)
+2. Click default 
+
+    <img src="./img/clickDeafault.png" width="700" height="400">
+3.
 
 
 
