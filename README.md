@@ -1,13 +1,9 @@
-# LASER  Language-Agnostic SEntence Representations
+# LASER  (Language-Agnostic SEntence Representations)
+
+[![Run on Ainize](https://ainize.ai/static/images/run_on_ainize_button.svg)](https://ainize.web.app/redirect?git_repo=github.com/kmkwon94/ainize-laser)
+
 
 LASER is a library to calculate and use multilingual sentence embeddings.
-
-**NEWS**
-* 2019/11/08 [**CCMatrix is available**](tasks/CCMatrix): Mining billions of high-quality parallel sentences on the WEB [8]
-* 2019/07/31 Gilles Bodard and Jérémy Rapin provided a [**Docker environment**](docker) to use LASER
-* 2019/07/11 [**WikiMatrix is available**](tasks/WikiMatrix): bitext extraction for 1620 language pairs in WikiPedia [7]
-* 2019/03/18 switch to BSD license
-* 2019/02/13 The code to perform bitext mining is [**now available**](tasks/bucc)
 
 **CURRENT VERSION:**
 * We now provide an encoder which was trained on [**93 languages**](#supported-languages), written in 23 different alphabets [6].
@@ -16,6 +12,14 @@ LASER is a library to calculate and use multilingual sentence embeddings.
 * We provide a [*test set for more than 100 languages*](data/tatoeba/v1)
   based on the [*Tatoeba corpus*](https://tatoeba.org/eng).
 * Switch to PyTorch 1.0
+
+**NEWS**
+* 2019/11/08 [**CCMatrix is available**](tasks/CCMatrix): Mining billions of high-quality parallel sentences on the WEB [8]
+* 2019/07/31 Gilles Bodard and Jérémy Rapin provided a [**Docker environment**](docker) to use LASER
+* 2019/07/11 [**WikiMatrix is available**](tasks/WikiMatrix): bitext extraction for 1620 language pairs in WikiPedia [7]
+* 2019/03/18 switch to BSD license
+* 2019/02/13 The code to perform bitext mining is [**now available**](tasks/bucc)
+
 
 All these languages are encoded by the same BiLSTM encoder, and there is no need
 to specify the input language (but tokenization is language specific).
@@ -28,6 +32,15 @@ a language family which is covered by other languages.
 
 A detailed description how the multilingual sentence embeddings are trained can
 be found in [6], together with an extensive experimental evaluation.
+
+# How to Use
+1. Click Run on ainize 
+   
+   ![RunonAinize](./img/runonainize.png)
+2. 
+
+
+
 
 ## Dependencies
 * Python 3.6
