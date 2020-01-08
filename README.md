@@ -48,7 +48,7 @@ be found in [6], together with an extensive experimental evaluation.
     <img src="./img/execute.png" width = "700" height="400">
 
 # How to Docker build
-if you want run on your local environmnet 
+if you want run on your local environment
 
 ```sh
 git clone https://github.com/kmkwon94/ainize-laser.git
