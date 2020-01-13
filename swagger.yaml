@@ -29,7 +29,7 @@ paths:
               value: "Hello nice to meet you"
             ko:
               summary: "korean sample"
-              value: "안녕하세요 양민호입니다."
+              value: "안녕하세요 권강민입니다."
           schema:
             type: string
         - name: lang
