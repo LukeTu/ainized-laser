@@ -30,17 +30,15 @@ paths:
             ko:
               summary: "korean sample"
               value: "안녕하세요 권강민입니다."
+            other languages:
+              summary: "input other languages"
+              value: "input other lagunages's sentences"
           schema:
             type: string
         - name: lang
           in: query
           required: true
           description: value that you want to encode lagnuages
-          schema:
-            type: string
-            enum:
-              - "en"
-              - "ko"
           examples:
             en:
               summary: "english sample"
@@ -48,6 +46,12 @@ paths:
             ko:
               summary: "korean sample"
               value: "ko"
+            other languages:
+              summary: "input other languages"
+              value: "input other languages"
+          schema:
+            type: string
+
       responses:
         "200":
           description: Successful Operation (1024 float32 values at "embedding" field)
